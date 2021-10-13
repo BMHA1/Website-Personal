@@ -1,43 +1,30 @@
 .contenedor-central{
-  display: grid;
-  grid-template-columns: 0.5fr 3fr 0.5fr;  
+  display: flex;
+  flex-direction: column;
+ 
+  justify-content: center;
+  align-items: center;
+  background-image: url(/imagenes/fondo4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-.contenedor-personal{
-  background-color: aqua;
+
+.imagen-prenstacion{
+border: solid rgb(122, 102, 102) 1px;
+border-radius:70%;
+width: 100%;
+height: auto;
 }
 
-/* @media (min-width:768px) {
-
-  .imagen-personal {
-    width: 10em;
-    height: 10em;
-  } */
-  .foto-informacion{
-    flex-direction:row;
-    flex-wrap: nowrap;
-  }
-
-  
-}
-.foto-informacion{
-display:flex;
-flex-direction: column;
-flex-wrap: nowrap;
-justify-content: center;
-align-items: center;
-background-color: grey;
+.informacion-inicial{
+  color: beige;
+  font-size: 1em;
+  background-color: rgb(83, 87, 87);
 
 }
-.imagen-personal{
-width: 100px;
-height: 100px;
-
+h1{
+  display: flex;
+  justify-content: center;
 }
-
-/* sección central  */
-.seccion-central{
-border: solid red 1px;
-
-}
-
