@@ -1,7 +1,29 @@
+
+
+
+@media (max-width: 800px){
+  .contenedor-central{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/imagenes/fondo4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+
+}
+
+
+
 .contenedor-central{
   display: flex;
   flex-direction: column;
- height: 80vh;
+ height: 100vh;
   justify-content: center;
   align-items: center;
   background-image: url(/imagenes/fondo4.jpg);
@@ -19,10 +41,10 @@ height: auto;
 }
 
 .informacion-inicial{
-  color: beige;
+  color: rgb(24, 106, 138);
   font-size: 1em;
   background-color: rgb(83, 87, 87);
-
+text-align: justify;
 }
 h1{
   display: flex;
