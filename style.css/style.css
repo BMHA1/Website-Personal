@@ -1,7 +1,7 @@
 
 body{
   height:100%;
-  margin:0;
+  margin:0px;
 }
 
 
@@ -23,8 +23,8 @@ body{
 
 .contenedor-central{
   display: flex;
-  flex-direction: column;
-  height: 100vh;
+  flex-direction: row;
+  /* height: 100vh; */
   justify-content: center;
   align-items: center;
   background-image: url(/imagenes/fondo4.jpg);
@@ -34,7 +34,7 @@ body{
 }
 .contenedor-centralportafolio{
   display: flex;
-  height: 100vh;
+  /* height: 100vh; */
   flex-direction: row;
   background-image: url(/imagenes/fondo4.jpg);
   background-repeat: no-repeat;
@@ -77,7 +77,7 @@ height: auto;
 
 .informacion-inicial{
   color: rgb(24, 106, 138);
-  font-size: 0.5em;
+  font-size: 1em;
   background-color: rgb(83, 87, 87);
 text-align: justify;
 
