@@ -1,0 +1,99 @@
+body {
+  height: 100%;
+  margin: 0px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.titulo {
+  text-shadow: -40px 16px 3px rgba(0, 42, 212, 0.72);
+}
+
+.contenedor-central {
+  display: flex;
+  flex-direction: column;
+  height: 85vh;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/imagenes/backgroundPrueba1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  gap: 2em
+}
+
+.contenedor-centralportafolio {
+  display: none;
+  height: 100%;
+  flex-direction: column;
+  background-image: url(/imagenes/fondo4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-contacto {
+  display: none;
+  height: 100vh;
+  flex-direction: row;
+  background-image: url(/imagenes/fondo4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+}
+
+.imagen-videoconsola {
+  width: 14.9em;
+  height: 10em;
+}
+
+.contenedor-proyectos {
+  width: 15em;
+  height: 18em;
+  margin: 5%;
+  -webkit-box-shadow: -3px 1px 5px 23px rgba(152, 170, 163, 0.667);
+}
+
+.proyectos-descripcion {
+  background-color: #f7ebeb;
+  height: 10em;
+  text-align: justify;
+}
+
+.imagen-prenstacion {
+  border: solid rgb(122, 102, 102) 1px;
+  border-radius: 10%;
+  width: 10em;
+  height: 8em;
+  align-items: center;
+  border: 0.2em solid rgb(120, 151, 218);
+}
+
+.informacion-inicial {
+  color: rgb(24, 106, 138);
+  font-size: 1em;
+  background-color: rgb(83, 87, 87);
+  text-align: justify;
+}
+
+h5 {
+  text-align: center;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+@media all and (min-width: 764px) {
+  .contenedor-central {
+    flex-direction: row;
+    gap: 2em;
+  }
+  .contenedor-centralportafolio {
+    flex-direction: row;
+    height: 100vh;
+  }
+}
